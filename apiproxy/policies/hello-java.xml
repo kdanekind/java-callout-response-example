@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<JavaCallout name="hello-java">
+    <ClassName>com.apigeesample.FormatResponse</ClassName>
+    <ResourceURL>java://FormatResponse.jar</ResourceURL>
+</JavaCallout>

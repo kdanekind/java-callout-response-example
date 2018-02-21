@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="javatest">
+    <Basepaths>/java-hello</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1519185926048</CreatedAt>
+    <CreatedBy>trial@apigee.com</CreatedBy>
+    <Description>A basic proxy with a Java Callout, used with "How to use Java callouts" doc topic.</Description>
+    <DisplayName>javatest</DisplayName>
+    <LastModifiedAt>1519186147972</LastModifiedAt>
+    <LastModifiedBy>trial@apigee.com</LastModifiedBy>
+    <Policies>
+        <Policy>hello-java</Policy>
+        <Policy>set-response</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>java://FormatResponse.jar</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+    <validate>false</validate>
+</APIProxy>

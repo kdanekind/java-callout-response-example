@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="set-response">
+    <DisplayName>set response</DisplayName>
+    <Properties/>
+    <Set>
+        <Payload>This is a test, only a test.</Payload>
+    </Set>
+    <AssignTo createNew="false" transport="http" type="response"/>
+</AssignMessage>

@@ -7,10 +7,6 @@ This Apigee Edge API Proxy demonstrates the use of the custom Java policy to mod
 
 This example is not an official Google product, nor is it part of an official Google product.
 
-### Example
-[![Youtube video: Example of using a Java callout in Apigee Edge to modify the response]](https://www.youtube.com/watch?v=Yo110_kWqxI "Video")
-
-
 ## Notes
 
 run build.sh to build the proxy bundle
